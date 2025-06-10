@@ -1,0 +1,6 @@
+build/
+vasciipp
+.clang-format
+assets/
+prof/
+notes.txt
