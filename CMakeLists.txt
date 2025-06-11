@@ -29,7 +29,6 @@ find_package(OpenCV REQUIRED)
 # message(STATUS "  include path: ${OpenCV_INCLUDE_DIRS}")
 
 include_directories(${OpenCV_INCLUDE_DIRS})
-include_directories(include)
 
 set(FILES
   src/main.cpp
@@ -39,6 +38,7 @@ set(FILES
 
 add_executable(vasciipp ${FILES})
 
+target_include_directories(vasciipp PRIVATE ${CMAKE_SOURCE_DIR/src})
 target_compile_options(vasciipp PRIVATE -Wall -Wextra -pedantic)
 # https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html
 target_link_libraries(vasciipp ${OpenCV_LIBS}) 

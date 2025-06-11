@@ -10,8 +10,8 @@
 #include <thread>
 #include <unistd.h>
 
-#include "../include/ascii.hpp"
-#include "../include/utils.hpp"
+#include "ascii.hpp"
+#include "utils.hpp"
 
 bool showVerbose = false;
 bool fillTerminal = false;

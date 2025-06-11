@@ -1,4 +1,4 @@
-#include "../include/ascii.hpp"
+#include "ascii.hpp"
 
 char asciiLookup[256];
 std::string customAsciiCharSet;
