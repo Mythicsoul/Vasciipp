@@ -51,7 +51,7 @@ void parseFlags(int argc, char **argv) {
                 << "  -c, --colors    prints color info\n"
                 << "  -F, --fg-color  sets foreground color\n"
                 << "  -B, --bg-color  sets background color\n"
-                << "  -A, --ascii     sets custom ascii character set (default: \" .:-=+*#%@'\")\n"
+                << "  -A, --ascii     sets custom ascii character set (default: \" .:-=+*#%@\")\n"
                 << "  -i, --invert    inverts the ascii character set and adds\n"
                 << "                  some empty spaces for visual clarity\n"
                 << std::endl;
