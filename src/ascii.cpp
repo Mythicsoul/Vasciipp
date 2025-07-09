@@ -10,7 +10,6 @@ void setupAscii(bool &invertAscii, bool &customAscii) {
   }
   if (invertAscii) {
     std::reverse(asciiCharSet.begin(), asciiCharSet.end());
-    asciiCharSet.append("      ");
   }
   int asciiCharSetSize = asciiCharSet.size();
   for (int i = 0; i < 256; ++i) {
