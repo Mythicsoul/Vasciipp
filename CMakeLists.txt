@@ -41,4 +41,6 @@ add_executable(vasciipp ${FILES})
 target_include_directories(vasciipp PRIVATE ${CMAKE_SOURCE_DIR/src})
 target_compile_options(vasciipp PRIVATE -Wall -Wextra -pedantic)
 # https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html
-target_link_libraries(vasciipp ${OpenCV_LIBS}) 
+target_link_libraries(vasciipp ${OpenCV_LIBS})
+
+install(TARGETS vasciipp DESTINATION bin)
